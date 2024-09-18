@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'GITHUB             redirect for my github page',
         'LINKEDIN           redirect for my linkedin page',
         'CLEAR              clear terminal',
-        'ABOUTPAGE          how this page is made'
+        'ABOUTPAGE          how this page are made'
     ];
 
     // Função para adicionar uma nova linha de comando com o campo de entrada
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     const helpMessage = commands.join('\n');
                     const responseLine = document.createElement('p');
                     responseLine.className = 'response';
-                    responseLine.textContent = `AVAILABLE COMMANDS:\n\n${helpMessage}\n\n`;
+                    responseLine.textContent = `AVAIABLE COMMANDS:\n\n${helpMessage}\n\n`;
                     terminalBody.appendChild(responseLine);
 
                     // Adiciona uma nova linha de comando
