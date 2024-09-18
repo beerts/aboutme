@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     const responseLine = document.createElement('p');
                     responseLine.className = 'response';
                     responseLine.textContent = `Hello, i'm Bernardo 23y Brazilian
-I have knowledge in Python, HTML, CSS, PowerBI, and Excel.
+I have knowledge in Python, HTML,FastHTML, CSS, PowerBI, and Excel.
 Frameworks such as Django, Streamlit, Flask, TKinter, Pandas, and Matplotlib.
 My primary areas of focus include Web Development, Back-end, and Data Analysis.
 I am also studying more about Artificial Intelligence.
