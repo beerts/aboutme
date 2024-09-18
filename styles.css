@@ -59,14 +59,14 @@ body {
     padding-right: 20px;
     font-size: 14px;
     overflow-y: auto;
-    height: 400px; /* Ajuste conforme necessário */
+    height: 400px; 
    
 }
 
 .prompt {
     margin: 0;
     padding: 0;
-    font-family: 'Consolas', monospace; /* Garante que o texto use a mesma fonte monoespaçada */
+    font-family: 'Consolas', monospace;
 }
 
 .command-input {
@@ -75,7 +75,7 @@ body {
     color: #ffffffec;
     font-family: 'Consolas', monospace;
     font-size: 15px;
-    width: 500px; /* Ajuste a largura conforme necessário */
+    width: 500px; 
     outline: none;
 }
 
@@ -86,12 +86,12 @@ body {
 
 .response {
     color: #ffffffbe;
-    margin: 0; /* Remove margens para que as linhas fiquem próximas */
-    padding: 0; /* Remove preenchimento se houver */
-    white-space: pre-wrap; /* Mantém a formatação de quebras de linha */
-    font-family: 'Consolas', monospace; /* Garante que o texto use a mesma fonte monoespaçada */
+    margin: 0; 
+    padding: 0; 
+    white-space: pre-wrap; 
+    font-family: 'Consolas', monospace; 
 }
-/* Media queries para responsividade */
+
 @media (max-width: 1024px) {
     .terminal {
         width: 90%;
